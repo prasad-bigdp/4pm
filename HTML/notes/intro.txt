@@ -1,0 +1,57 @@
+1. Internet Basics(WWW,domain,client-server model,how internet works)
+2. UI/UX(figma,photoshop,adobe XD) -- practice, freelance
+3. frontend:
+HTML --- structure
+netlify -- everyday push your site to netlify
+
+-------------setup----------------
+1. vscode download & install
+   why? 1. community: high
+    plugins/extensions: easy automated 
+Live Server
+v5.7.9
+Ritwick Dey
+live Preview by microsoft
+2. GitHub : a website to store,share or deploy code with version control
+3. netlify: using GitHub create one netlify account. it is used to deploy code
+4. download and install git: git is a version control software
+----------------------------------------------------------------
+HTML Introduction
+-----------------------------------------------------------------
+HyperText Markup Language. HTML is used structure of the web page.HTML5 is the current version
+HTML started in early 90's and HTML started by Tim Berners LEE(founder of WWW)
+HTML consists of tags ..
+  open tag  ---->    <tagname>
+  closed tag ---->   </tagname>
+Tag vs element: tag can multiple like open tag,close tag etc..,
+elements -- an element is a combination of 
+open tag+content+close tag
+<h1>   -- h1 open tag
+</h1>  -- h1 close tag
+<h1>hf kdfhkjdfh</h1> -- h1 element
+
+Headings: 
+Heading represent text in bold and and each heading decrease in size from h1 to h6
+
+paragraph: paragraph in html can be done using 'p' tag
+eg:<p>hfbjb jfgj hjghjf</p>
+
+images: img tag use src and alt, in which src is the link source of image and alt is alternative title which works on html but not able to load images
+
+a tag: it is used to navigate the links by URLS, you can give link in href
+
+some tags no need to be closed. they are called self closing tags / void elements/ empty elements
+Eg: br,hr,input,img etc..,
+<br> or <br/>
+
+
+
+
+
+
+
+
+
+
+
+

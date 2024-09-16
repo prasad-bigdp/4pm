@@ -1,0 +1,6 @@
+Lists are used to display certain list of items
+There are three kinds of Lists
+ 1. ordered list: ordered list is used to display 
+ certain items with an ordered
+ 2. unordered list
+ 3. definition list
