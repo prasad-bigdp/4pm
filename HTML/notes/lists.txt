@@ -1,6 +1,12 @@
 Lists are used to display certain list of items
 There are three kinds of Lists
  1. ordered list: ordered list is used to display 
- certain items with an ordered
- 2. unordered list
- 3. definition list
+ certain items with an ordered. there are 5 types of orders we can place items.
+   a. type="1"==> items are order with numerical values from 1 sequentially
+   b. type="a" ==> items are ordered with alphabetical values in lowercase.
+   c. type= "A" ==>   b. type="a" ==> items are ordered with alphabetical values in uppercase
+   d. type= "i" ==> place items with lowerase roman numbers.
+   e. type="I" ==> place items with uppercase roman numbers.
+2. unordered list : unordered lists are used to print set of items without an order by default with bullets points
+we specify type of unordered
+ 3. definition list: DEefinition lists are used to define data(DD) dinition and definition term(data)

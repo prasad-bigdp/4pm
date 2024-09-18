@@ -1,0 +1,18 @@
+Formattings tags are used to format the text
+b -- b is used to bold the text
+strong -- strong is also used to make the text bold but browsers understand strong as important. so for better SEO, use strong over b.
+i -- i is used to make the text italic,
+em -- em is used to make the text italic and also state it as reference
+u -- u is used for underline
+del -- del is used for delete. it will strikeout the value and it is understood as deleted value by browser.
+ins -- ins is used for the place of inserted value.
+sub -- sub is used for the subscript(H20 where two comes down)
+sup -- sup is used for supescript(a2 - where 2 comes up).
+kbd -- keyboard shortcuts
+code -- code is used for adding codes
+address -- address is used to add address. it comes in italic
+q -- q is used for quotations
+br -- br is used for break
+hr -- hr is used for horizontal line
+pre -- preformatted text
+mark -- used for highlighting the text

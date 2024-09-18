@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <h1><u>Tables:</u></h1>
+    <table border="1">
+        <tr>
+            <th>subject</th>
+            <th>marks</th>
+        </tr>
+        <tr>
+            <td>Maths</td>
+            <td>35</td>
+        </tr>
+        <tr>
+            <td>Computers</td>
+            <td>95</td>
+        </tr>
+        <tr>
+            <td>Biology</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <th>Total:</th>
+            <td>215</td>
+        </tr>
+    </table>
+    <!-- row span and colspan -->
+     <table border="1" cellspacing="10" cellpadding="10">
+        <tr>
+            <th>sno</th>
+            <th>Grocery Item</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>milk</td>
+            <!-- ctrl+shift+4 gives rupee -->
+            <td rowspan="2">₹250</td>
+        </tr>
+        <tr>
+           <td>2</td>
+           <td>wheat</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td colspan="2">NA</td>
+        </tr>
+     </table>
+</body>
+</html>
