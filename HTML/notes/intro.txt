@@ -37,8 +37,10 @@ paragraph: paragraph in html can be done using 'p' tag
 eg:<p>hfbjb jfgj hjghjf</p>
 
 images: img tag use src and alt, in which src is the link source of image and alt is alternative title which works on html but not able to load images
+<img src="" alt="" />
 
 a tag: it is used to navigate the links by URLS, you can give link in href
+<a href="" target="_blank">
 
 some tags no need to be closed. they are called self closing tags / void elements/ empty elements
 Eg: br,hr,input,img etc..,

@@ -1,0 +1,17 @@
+Element  is considered as complete tags with content. 
+open tag+contenet+close tag = Element
+There are two types of elements
+1. block elements :
+   block element will not allow any other elements beside it
+2. inline elements:
+   inline elements will allow other elements to beside it
+   Eg: a,input,img,formatting tags
+   There are some general block and inline elements.
+   general block element is div
+   general inline element is span
+
+Semantic Elements: semantic element are browser and SEO friendly, easy to understand the code
+
+semantic elements will not create any impact in the UI
+This is one of the HTML5 feature
+eg: header,footer,main,article,section,nav etc..,
