@@ -1,0 +1,59 @@
+Forms are used to enter inputs by input element.
+-- input: input element is a self closing element which can take inputs based on type
+  input uses attributes such as
+type -- it defines the type of type
+name -- it defines the name given to sender page
+placeholder -- dummy text used for placing as value.
+value -- actual value you want for input. you can enter or pre generate
+id -- to identify element uniquely we give id
+
+----------------------------------
+Different types of inputs
+1. text : used to inputs texts
+2. email: used to input emails
+3. password:used to input password. by default letters will be hidden.
+4. number: used to input numbers only
+5. date : used to selct specifc date.
+6. datetime-local : used to select date and time locally
+7. color: used to select color
+8. url: used to input specific web url
+9. month: used to select specific month with year
+10. week: used to select the week of the year
+11. range: used to select the range 
+12. tel: used for telephones (usually used for country codes)
+13. image: used to include some images such as logos
+14. file: used to upload some files
+15. submit: used to submit the Forms
+16. reset: used to reset the form
+17. search: used to input the seaching text. on enter, it automatically submits the form
+18. hidden: used to input a file so that automatically backend receives data without user's knowledge
+19. textarea: used to write large sets of text. can control height and width by rows and cols
+
+-----------------------------------------
+Each form input can be given a label and label can activate input by connecting label's for and inputs's id
+---------------------------------------
+Radio:
+radio buttons are used to select any one of small number of options
+--- it is important to keep all radio inputs name should be same to achieve unique input
+
+Checkbox:
+checkboxes are used to select the multiple options 
+--- even the name same still, it accepts multiple options
+
+DropDowns (select):
+for large set of data to select, we use select tag, inside the select tag we use options with respectives values will be given
+
+To select multiple we can use multiple flag. you can even set size
+
+to group options, you can use optgroup with label
+
+
+
+
+
+
+
+
+
+
+
