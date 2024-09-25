@@ -1,0 +1,16 @@
+Can you do validation in HTML?
+yes, we can do validation using min,max,size,minlength,maxlength,required,disabled,checked,pattern
+min: minimum size
+max: maximum size
+minlength: minimum number of characters
+maxlength:maximum number of characters
+required: make that field as required/mandatory
+disabled: you can make the input disabled
+readonly: user cannot edit this data
+  -- difference between readonly and disabled is disabled data will not be sent to action and readonly data can be sent
+size: we can restrict the size of select with multiple option
+pattern:
+pattern uses regular expression and to create regular it uses symbols like asterik,\,[],{} etc..,
+
+
+
