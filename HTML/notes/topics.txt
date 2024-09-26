@@ -1,0 +1,15 @@
+Demo :
+  -- Web Introduction
+  -- Design(UI/UX - figma)
+  -- Probelm solving/critical thinking
+  -- vscode,developer tools,github,netlify
+HTML: 
+  -- intro,
+  -- heading,paragraph,anchor,images
+  -- formating tags
+  -- block,inline,semantic elements
+  -- lists
+  -- tables
+  -- forms
+  -- form validations
+  -- media
