@@ -1,0 +1,11 @@
+Cascading style sheets are introduced in 1994 . they are used for styling/designing of the web page
+
+TO understand , we need to understand 3 basic things
+1. different type of CSS
+2. different selectors
+3. designs
+
+To achieve this CSS follows 3 ways. they are
+1. inline CSS : we can write CSS of any element in the same line using style as a attribute
+2. internal CSS
+3. external CSS

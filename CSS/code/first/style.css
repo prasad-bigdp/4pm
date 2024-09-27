@@ -1,0 +1,12 @@
+ #heading1{
+            background-color: skyblue;
+            color: brown;
+        }
+        #heading2{
+            background-color: rgb(246, 13, 246);
+            color: white;
+        }
+        .myHeading{
+          background-color: red;
+          color: black;
+        }
