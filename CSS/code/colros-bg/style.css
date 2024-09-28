@@ -1,0 +1,18 @@
+body{
+    /* background:linear-gradient(to bottom,violet,indigo,blue,green,yellow,orange,red); */
+    background-image: url('https://i8.behindwoods.com/tamil-movies-cinema-news-16/images/new-update-on-shooting-of-rajinis-next-with-karthik-subbaraj-photos-pictures-stills.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+   height: 100vh;
+}
+div
+{
+    background-color: white;
+    color: black;
+    width: fit-content;
+    border:3px solid red;
+    /* padding is gap between border and context*/
+    padding: 50px 20px 30px 80px;
+    margin:100px;
+}

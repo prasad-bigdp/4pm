@@ -1,0 +1,5 @@
+Box Model also called heart of CSS
+it covers 3 topics
+border
+padding
+margin

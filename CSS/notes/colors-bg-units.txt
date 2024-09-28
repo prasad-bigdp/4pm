@@ -1,0 +1,4 @@
+CSS can give wide range of colors, you can represent colors through
+name,
+hexcode(like #c56b05)
+rgb(152,85,220)-- minimum 0 , maximum 255

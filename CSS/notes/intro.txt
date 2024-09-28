@@ -7,5 +7,12 @@ TO understand , we need to understand 3 basic things
 
 To achieve this CSS follows 3 ways. they are
 1. inline CSS : we can write CSS of any element in the same line using style as a attribute
-2. internal CSS
-3. external CSS
+<h1 style="color:"red"">fghjdf</h1>
+2. internal CSS: In the head , we can write style as a element and present style inside it
+3. external CSS: external css is some css file and linked to html through link tag
+<link rel="stylesheet" href="path" />
+
+There are three ways you can select an element
+by tag
+by class   --->  dot
+by id      --->  #
