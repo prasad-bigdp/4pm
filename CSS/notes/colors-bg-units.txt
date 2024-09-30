@@ -2,3 +2,55 @@ CSS can give wide range of colors, you can represent colors through
 name,
 hexcode(like #c56b05)
 rgb(152,85,220)-- minimum 0 , maximum 255
+rgba() -- a is alpha from 0.0 to 1.0
+
+background: we can provides backgrounds in CSS through different ways like 
+background-color:red;
+background-image:url('path')
+but if the image size is not fit to the screen size, image may repeat, to control, we can use
+background-repeat: repeat/repeat-x/repeat-y/no-repeat
+background-size: auto/contain/cover
+background-position: we can keep position of background in different places such as left,right,top,bottom,center
+backgrounds can also be multi colors such as linear gradient or radial gradient
+background:linear-gradient(to right,red,blue);
+background:radial-gradient(red,blue) -- comes in circle
+
+
+there are different types of fonts available
+----> serif -- they are having a stroke at each end
+----> sans-serif -- they are not having any stroke
+----> monospace -- all letter same height
+----> cursive --- letter combined with some style
+----> fanatsy -- new letters which cannot be classified
+
+we get fonts from google fonts, dafonts, 1000fonts
+
+units: we can define our website to have multiple units 
+like
+px-- pixel
+vh/vw -- visible width/visible height
+em -- enumerated value- it always takes x times of parents font size
+rem -- root enumerated value -- it always x time of roots font size(16px)
+% -- you can also share units as %
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

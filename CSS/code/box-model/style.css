@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body{
+  font-family:  "Satisfy", cursive;
+  font-size: 10px;
+  font-style: italic;
+
+}
+#box{
+  height: 100px;
+  width: 50vw;
+  background-color: thistle;
+  border: 2px solid black;
+  box-sizing: border-box;
+  padding:30px ;
+  border-top-left-radius:40px;
+border-top-right-radius: 50px;
+border-bottom-right-radius:50px
+    /*- there are 2 kinds of boxes, 1. border box, 2. content box. by default css treats eveything as content box. contentes increase height/width when padding comes*/
+   
+}
+#word{
+     text-decoration:line-through wavy red 1px;
+    color: green;
+}
+h1{
+text-transform: lowercase;
+text-shadow: 1.2px 1px green;
+text-indent: 20px;
+}
