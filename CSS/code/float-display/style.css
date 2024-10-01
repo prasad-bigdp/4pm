@@ -1,0 +1,33 @@
+body{
+    max-width: 1280px;
+    margin: auto;
+}
+header{
+    max-width: fit-content;
+    margin: auto;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+}
+.banner-img{
+    float: left;
+}
+#right h2{
+    font-size: 48px;
+}
+#right p{
+    font-size: 28px;
+}
+
+
+
+
+.service{
+    height: 100px;
+    width:100px;
+    background-color: brown;
+    border-radius: 20px;
+    margin:10px;
+    display: inline-block;
+}
