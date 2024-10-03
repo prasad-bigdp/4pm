@@ -1,0 +1,21 @@
+git is a version control system
+github is an online repository system to store code
+
+download git and install it ,
+ https://git-scm.com/downloads
+ you can alos check after install by typing command
+ in cmd "git -v"
+
+create account & repository in github
+
+goto terminal--> new terminal
+1. git init
+2. git add .
+3. git commit -m "message"
+
+for first time,
+git config --global user.email "emailid"
+git config --global user.name "username"
+
+git remote add origin "link"
+git push -u origin main/master

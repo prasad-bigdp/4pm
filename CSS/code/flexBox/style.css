@@ -1,0 +1,22 @@
+.container{
+display: flex;
+flex-direction: column; 
+flex-wrap: nowrap;
+justify-content: space-between; /* justify-content moves items along main axis*/
+align-items:center;/* align-items will the elements in cross axis*/
+height: 400px;
+/*gap:20px; /* gap between the items*/
+width: 400px;
+border: 1px solid red;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    box-shadow: 2px 3px black;
+}
+.child1{
+    background-color: red;
+    align-self: self-end;
+}

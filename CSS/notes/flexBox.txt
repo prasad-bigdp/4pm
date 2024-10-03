@@ -1,0 +1,2 @@
+FlexBox:
+FlexBox is used to arrange the child elements in one directional way
