@@ -1,0 +1,12 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 10px;
+    transition:all 2s ease;
+}
+.box:hover{
+    background-color: green;
+    transform:skew(20deg)
+  
+}

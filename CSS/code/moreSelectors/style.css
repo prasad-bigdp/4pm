@@ -1,0 +1,66 @@
+.box{
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    background-color: red;
+}
+/* child selector */
+/*div>p{ /*p child of div
+    color: red;
+}*/
+/*div p{/* descendant
+    color: green;
+}*/
+/*div+p{ /* p next child of div
+    color: green;
+}*/
+
+/* pseudo classes - they selects elements based on position - :: */
+/* p::first-letter{
+    color: red;
+    font-size: 48px;
+}
+p::first-line{
+    color: green;
+}
+p::before{
+    content:'\2058';
+    font-size:48px;
+}
+input::placeholder{
+    color: red;
+} */
+/* pseudo elements - they selects the elements based on state  -- :*/
+/* .box:hover{
+    background-color: green;
+}
+input:disabled{
+    background-color: red;
+}
+.box:not(.box2){
+    background-color: red;
+} */
+/* .main div:nth-child(2)
+{
+    background-color: green;
+}
+.main div:nth-last-child(1){
+    background-color: yellow;
+} */
+
+.main p:nth-child(1){
+    background-color: green;
+}
+.main p:nth-of-type(2){
+    background-color: green;
+}
+
+/* these selectors may not used daily but using them will give better UI */
+
+
+
+
+
+
+
+
