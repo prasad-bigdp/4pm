@@ -1,0 +1,20 @@
+Position: position is usedto keep elements at certain positions in the UI.
+It contains 5 values 
+ a. absolute
+ b.relative
+ c. fixed
+ d.sticky
+ e. static
+
+static:
+ By Default all Position values are static.static does not have any impact with top,left,bottom,right
+
+ relative :
+ relatives compares position from its previous position
+ top ,bottom,right,left with can be use to move the elements from its previous position
+
+ absolute: absolute is used to move the elements from the body position.
+
+ fixed: fixed is similar ro absolute but scrolling doesnot effect fixed
+
+ sticky: sticky is used when we want element to move initially but becomes sticky after cetain point

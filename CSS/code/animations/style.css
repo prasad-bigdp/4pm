@@ -1,0 +1,48 @@
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    margin: 10px;
+    animation: prasad 10s ease infinite;
+    animation-direction: alternate;
+}
+.box1{
+     animation-delay: 0s;
+}
+.box2{
+    animation-delay: 2s;
+}
+.box3{
+    animation-delay: 4s;
+}
+.box4{
+    animation-delay: 6s;
+}
+@keyframes prasad {
+    0%{
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+    33%{
+        background-color: green;
+        position: relative;
+        left: 200px;
+        top: 300px;
+     border-radius: 50%;
+    }
+    66%{
+          background-color: yellow;
+        position: relative;
+        left: 500px;
+        top: 200px;
+        border-radius: 50%;
+    }
+  100%{
+   background-color:red;
+    position: relative;
+        left: 100px;
+        top: 0px;
+        border-radius: 50%;
+  }
+}

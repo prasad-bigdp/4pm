@@ -1,0 +1,6 @@
+transition  means moving from one state to another state
+transition: properties time timing-function delay;
+properties: you can define any property or all
+time: time will be in seconds
+timing-function: linear/ease-in/ease-out/ease-in-out/ease
+delay: in seconds or milliseconds

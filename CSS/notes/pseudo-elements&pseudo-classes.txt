@@ -1,0 +1,38 @@
+Pseudo elemenets: pseudo elements contains double column and they are used to select specific parts of an element
+
+Pseudo Elements determine certains postions in the HTML elements. they are followed by ::
+
+::first-letter: selects only first letter of selector
+::first-line:selects only first line of selector
+::after: selects after content of given selector
+::before: selects before content of given selector
+::placeholder: selects placeholder of given input
+
+Pseudo classes: pseudo classes are used using : and they determine element based on acondition
+
+a:link -- it defined anchor tag with a link
+a:active -- it triggers when anchor tag clicked
+a:visited -- it triggers when anchor link already visited
+input:focus -- it triggers when input element selected
+:hover -- works when you keeps mouse over it
+
+let's understand, nth-child,nth-of-type
+order of childern are p-1,div-2,p-3,div-4,p-5 ,parent class name .boxx
+.boxx p:nth-child(1) means paragraph inside .boxx and child number 1, so p1 will be selected
+.boxx p:nth-child(2) it selects nothing because 2nd child of boxx is not p 
+
+we can also count from last nth-last-child
+.boxx p:nth-last-child(1) seelct p5 since it is paragraph and 1st from last
+.boxx p:nth-last-child(2) select nothing because 2nd child from last is not paragraph.
+
+nth-of-type()-- selects elements based on type
+.boxx p:nth-of-type(2) it selects 2nd paragraph so it is p3
+we calso count this from last by nth-last-of-type
+.boxx div:nth-last-of-type(1) selects div4 because it is 1st div element from last
+
+:required  --> selects input elements which have required flag
+:optional --> selects input elements which are not having required flag
+:read-only  --> selects input elements which are having readonly flag
+:read-write  --> selects input elements which are not having readonly flag
+:disabled ---> selects input elements which are having disabled flag
+:enabled --> selects input Elements which are not having disabled flag
