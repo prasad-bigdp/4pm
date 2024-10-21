@@ -17,11 +17,13 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
-  top: 0;
+    position: sticky;
+    top: 0;
+  
 }
 nav{
-  background-color: white;
+  background-color:black;
+  color: white;
   border-radius: 40px;
   padding: 20px;
   display: flex;
@@ -30,15 +32,18 @@ nav{
   width: 80vw;
   
 }
+nav .logo{
+    gap: 20px;
+}
 nav ul{
     list-style: none;
     display: flex;
-      gap: 10px;
+      gap: 30px;
 }
 li a{
     text-decoration: none;
     font-size: 24px;
-    color: black;
+    color: white;
 }
 li a:hover{
 color: var(--primary-color);
@@ -60,11 +65,12 @@ color: var(--primary-color);
     justify-content: space-between;
     gap: 20px;
     width: 100%;
-    padding: 100px 10px;
+    padding: 200px 10px;
 }
 .left{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 20px;
 }
 .left h2{
@@ -151,12 +157,15 @@ footer{
     text-align: center;
 }
 /* media queries*/
-@media (min-width:480px) and (max-width:760px){
-
+@media (max-width:796px){
+header{
+    width: 100%;
+}
  nav{
     flex-direction: column;
+    justify-content: center;
     gap: 20px;
-    width: 100vw;
+    width: max-content;
  }
  .logo{
     flex-direction: column;
@@ -177,6 +186,9 @@ grid-template-columns: repeat(2,1fr);
 @media (min-width:761px) and (max-width:997px){
 #projects{
     grid-template-columns: repeat(2,1fr);
+}
+.logos{
+grid-template-columns: repeat(2,1fr);
 }
 }
 @media (min-width:998px){
