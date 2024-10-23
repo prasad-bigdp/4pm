@@ -1,0 +1,40 @@
+Boostrap is CSS component Library which is used for UI Purposes. Bootstrap Provides responsive designs by break points
+To understand Bootstrap, we have to understand,
+  --- layout
+  --- colors
+  --- breakpoints
+  --- components
+
+How to link Bootstrap to our project?
+take cdn link of boostrap.min.css and paste it in head of html file
+https://getbootstrap.com/ ---> docs ---> introduction
+
+
+-- colors: bootstrap offers 8 colors named as 
+ primary, secondary, success,danger, warning,
+  info, dark/black , white/light
+
+boostrap also provides layout. According to boostrap , every line is a row and it contains columns, total bootstrap divides 12 columns per row
+class names we can use: container, container-fluid, row, col-number
+
+for box model:
+padding: p-0,p-1,p-2,p-3,p-4,p-5,px(left n right),py(top n bottom), pt(padding top),pb(padding bottom),ps(padding start/left),pe(padding end/right)
+margin: similar to padding but m instead of p for margin
+border: border uses class border, border-size, border-color
+border-radius: rounded used for border-radius like rouded-size
+
+Breakpoints: boostrap provides several breakpoints to make code responsive
+Breakpoint	          Class infix	Dimensions
+Extra small          	None	      <576px
+Small                	sm	           ≥576px
+Medium	                md          	≥768px
+Large                	lg	            ≥992px
+Extra large	            xl	            ≥1200px
+Extra extra large     	xxl	            ≥1400px
+
+
+
+
+
+
+
