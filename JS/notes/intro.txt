@@ -1,0 +1,79 @@
+Javascript is introduced in 1995 by Brendan Eich . js initially called as live script but changed as javascript because java is popular at that time
+Javascript is client side language, node js also runs in server.
+1. How to write JS in HTML?
+   there are two ways to connect JS into HTML.
+   i. internal JS: In this JS, we will write javascript inside HTML between script tags
+    <script>
+        console.log("hello world")
+    </script>
+   ii. External JS: we can write External JS and connects to HTML using script tag
+       <script src="./script.js"></script>
+       script.js
+          console.log("bye world")
+
+Task1:  write js to print your name and details , connect to html internally and externally
+
+2. what is console? what are Google Developer Tools? why they used?
+Every Browser provides some Tools in inspect to know about the websites more detailed. Those Tools are called Google Developer Tools. They are useful in making, testing and updating the web pages more effectively.
+Eg: Elements(html+code),console(debugging),sources(to contains actual files), network (to do api requests), performane, memory,application,lighthouse
+
+var a=25
+3. How to insert comments in js?
+ There are 2 ways to write comments of js in html.
+ 1. single line. single line comments uses// 
+ 2. multiline: they start with /* ends with:*/  
+
+4. How to declare a variable in js?
+you can declare a variable in javscript using var or let or const 
+
+Task3: write a basic js to print addition,subtraction,multiplication and division of two numbers . print in console. 
+var a=35, b=45;
+        console.log("sum is",(a+b))
+        console.log(a,b,(a-b))
+        console.log(a,b,(a*b))
+        console.log(a,b,(a/b))
+
+
+Every variable will have a data type but js is dynamically typed language . it means in js, variable don't have fixed data type
+
+5. what are the data types in JS?
+JS have two types like primitive data type and non-primitive datatypes.
+Primitve data types: number, string, boolean, undefined and null.
+number:  any number (integer/decimal) is of type 'number'
+
+we can use math methods such as ceil,floor,random,sqrt,cbrt,pow,round etc..,
+
+// write a simple js to find cube of sum of two digits
+eg:if i give 2 and 3, the result should be 125 in console
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
