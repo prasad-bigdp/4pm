@@ -1,0 +1,15 @@
+Data Types are of Two Types
+ 1.primitive:
+   a. number: number is used of any numeric value
+   we can also use methods such as Math methods(pow,cbrt,sqrt,ceil,floor,round,abs,random etc..,), valueOf
+   b.string: strings are used of any alphanumerical values
+   strings can be represented in '' or " "
+   strings also use some methods such as length,toUpperCase,toLowerCase,startsWith,endsWith,concat, split,join,substr,
+   replace,replaceAll,indexOf,charAt,lastIndexOf
+   c.boolean : boolean is used to store values such as true or false
+   d.undefined: undefined means accidental absence of value
+   e.null: null means intenstional absence of value
+ 2.Non-primitve:
+   a.functions: 
+   b.arrays
+   c.objects

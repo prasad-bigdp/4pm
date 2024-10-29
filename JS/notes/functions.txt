@@ -1,0 +1,57 @@
+functions : functions are used to do a specific task.
+Advantage: code reusability
+Easy debug
+function function-name(arguments){
+    //definition
+}
+//simple function
+function display(){
+    console.log("hello world")
+}
+display()
+
+
+
+
+function sum(a,b=25){
+    console.log(a+b)
+}
+sum(2,3)  //5
+sum(2) //2+undefined=NaN
+
+//Incase of parameter value absence, default value in argument will be taken
+
+// functions can also return values
+function sub(a,b){
+    return a-b;
+}
+var k= sub(6,5)
+console.log(k);
+
+
+functions can take other functions as parameters , this is called callback function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

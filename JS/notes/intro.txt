@@ -35,7 +35,7 @@ var a=35, b=45;
 
 
 Every variable will have a data type but js is dynamically typed language . it means in js, variable don't have fixed data type
-
+JS is synchronous, single threaded programming language
 5. what are the data types in JS?
 JS have two types like primitive data type and non-primitive datatypes.
 Primitve data types: number, string, boolean, undefined and null.
