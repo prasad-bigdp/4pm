@@ -33,6 +33,21 @@ functions can take other functions as parameters , this is called callback funct
 
 
 
+function sum(a,b)//formal arguments{
+    console.log(a+b)
+}
+sum(5,6) // actual arguments/parameter
+
+
+
+
+
+
+
+
+
+
+
 
 
 

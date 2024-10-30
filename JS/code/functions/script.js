@@ -108,6 +108,38 @@ result()  //2
 
 
 
+function add (a, b)
+{
+    return a + b;
+}
+function something (a, b, c,x)
+{
+    console.log(x) 
+  console.log(x(a,b)+c)  
+}
+something(2,5,6,add)
+
+
+function bahar ()
+{
+    var x = 25;
+   return  function andhar ()
+    {
+       return --x;
+    }
+}
+let res1 = bahar();
+console.log(res1())
+
+
+
+
+
+
+
+
+
+
 
 
 
