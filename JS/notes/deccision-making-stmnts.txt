@@ -1,0 +1,60 @@
+we can use decision maing statements like if and switch to make control goes based on condition's result
+ i. if: it is used to check the condition , if the condition is true it goes with if and it the condition is false, it goes with else
+
+ simple-if: only single if statement
+ if-else : it contains both if and else statements
+ if-else if : it contains if-else ladder
+ nested if: if inside another if
+
+ ii. switch: switch is used when we have multiple options to choose
+ in switch we have cases, each case represents an option and at last there is an option called default which works when choice doesn't match with any of the cases
+
+ To stop flow after execution of one case, we use break at the end of every case
+
+
+ Loops: loops are used to iterate a certain statements based on a condition
+Loops will stop iterate only if condition is false
+we can use while, do while,for(standard, for..in,for..of,forEach)
+
+syntax for a while: 
+initialization; 
+while(condition){
+    //stmnts;
+    updation;
+}
+
+syntax of do-while:
+initialization;
+do{
+    //stmnts;
+    updation;
+}while(condition);
+
+var a=17
+do{
+    console.log(a);a++;
+}while(a>=18)
+
+//for
+syntax for:
+//standard for
+for(var i=0;i<=arr.length;i++){
+    console.log(arr[i].name)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

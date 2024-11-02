@@ -72,10 +72,11 @@ console.log(evenOdd2)
 
 arr = [1, 2, 3]
 var k = 0
-arr.find(function (val)
+arr.find(raju)
+function raju(val)
 {
     return val%2==0
-})
+}
 var x=arr.reduce(function (prev,curr)
 {
     return prev+curr
@@ -84,7 +85,17 @@ console.log(x)
 
 
 
-
+//objects
+let student = {
+    name: "shekhar",
+    age: 24,
+    study ()
+    {
+        console.log("studying")
+    }
+}
+console.log(student.name) //dot notation
+console.log(student['name']) //index signature
 
 
 
