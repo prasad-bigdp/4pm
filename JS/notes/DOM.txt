@@ -1,0 +1,17 @@
+document is an object created by browser which contains complete copy of your HTML
+it can do
+1. selection:
+console.log(document.getElementsByTagName('h1'))
+console.log(document.getElementsByClassName('heading'))
+console.log(document.getElementById('head'))
+console.log(document.querySelector('h1'))
+console.log(document.querySelectorAll("h1"))
+
+2. updation/manipulation:
+To manipulate what it contains, we can use
+textContent
+innerText
+innerHTML
+
+
+2. creation

@@ -1,0 +1,8 @@
+difference between var,let,const:
+var can redeclare and reassign
+let can only reassign
+const cannot redeclare and reassign
+var variables can access before initialization
+variables declared by let,const cannot be accessed before initialization since they are stored within temporal dead zone
+var is a function scoped variable.
+let,const are block scoped variables

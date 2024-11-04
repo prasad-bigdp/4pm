@@ -1,0 +1,12 @@
+Javascript
+  -- introduction
+  -- data types
+  -- primitve(number,string,boolean,undefine,null)
+  -- js engine
+  -- arrays
+  -- functions
+  -- objects
+  -- if,switch
+  --for,for..in,for--of,forEach
+  -- var,let,const
+  -- DOM
