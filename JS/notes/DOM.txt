@@ -9,9 +9,10 @@ console.log(document.querySelectorAll("h1"))
 
 2. updation/manipulation:
 To manipulate what it contains, we can use
-textContent
-innerText
-innerHTML
+textContent: used to get/change what text inside an element
+innerText  : used to get/change what text inside an element and it also respects CSS
+innerHTML  : used to change html code
+style  : used to change CSS
+classList : you can add/remove/toggle class names
 
-
-2. creation
+3. creation
