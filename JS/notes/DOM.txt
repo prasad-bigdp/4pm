@@ -15,4 +15,5 @@ innerHTML  : used to change html code
 style  : used to change CSS
 classList : you can add/remove/toggle class names
 
-3. creation
+3. creation:
+we can create HTML elements in Javascript using createElement function of document object

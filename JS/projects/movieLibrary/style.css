@@ -1,0 +1,15 @@
+
+#movieLibrary{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}
+.myMovie{
+    padding: 30px;
+    box-shadow: 2px 3px black;
+    border-radius: 20px;
+}
+img{
+    height: 300px;
+    width: 300px;
+}
