@@ -1,0 +1,13 @@
+Events are used to trigger specific functions by specific user actions.
+Events can be added in two ways
+events have default functions which are divided as three parameters
+  a. browser/window events: onLoad,onabort,onDOMContentLoaded etc..,
+  b. keyboard events : keypress, keyUp,keyDown etc..,
+  c. mouse events
+     -- onClick , onMouseOver, ondblClick
+i. event handlers: triggered in HTML. it usually  attaches to an element
+like 
+<button onClick="fun()">click me</button>
+eg: onClick,onChange,onInput: 
+
+ii. event listners

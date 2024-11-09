@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#moviesList{
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ gap: 20px;
+}
+.movie img{
+    height: 200px;
+    width: 200px;
+}
+.movie{
+   padding: 20px;
+   border-radius: 20px;
+   box-shadow: 1px 2px black;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
