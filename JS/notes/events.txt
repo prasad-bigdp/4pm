@@ -11,3 +11,9 @@ like
 eg: onClick,onChange,onInput: 
 
 ii. event listners
+Event listners are used to listner specific event and triggers an action the moment event occurs
+
+Event can be propagated from child to parent in nested elements is known as bubbling
+we can do reverse by making thirs argument true which is called as capturing
+
+

@@ -1,0 +1,29 @@
+Javascript is synchronous , single threaded programming language
+But in Js, async is also possible
+ --Timers:
+ Timers are web API provided by browser
+  setTimeout(fn,time in ms) --- fn will executed after given time
+  setInterval(fn,time in ms) -- fn will get executed every time after specific is over
+  we can cancel timeOut and interval by clearTimeout and clearInterval functions
+ --fetch
+ API(Application programming Interface):
+  Through URL , we can send json data -- REST API
+  we can access the data by using
+  i. xhr(xmlHttpRequest)
+  ii. fetch:
+  fetch is a webAPI provided by browser, used to perform API reuests such as 
+  GET,POST,PUT,DELETE,PATCH
+  GET: fetch('url')
+
+
+
+
+
+  iii.axios
+
+
+
+
+
+
+
