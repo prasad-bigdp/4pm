@@ -1,7 +1,11 @@
 Javascript
   -- introduction
+     how many ways js can be added?2(internal,external)
+     is console part of js?
+     along with console, browser contains some tools- google developer tools
+     -- var,let,const
   -- data types
-  -- primitve(number,string,boolean,undefine,null)
+  -- primitve(number,string,boolean,undefined,null)
   -- js engine
   -- arrays
   -- functions
@@ -10,3 +14,5 @@ Javascript
   --for,for..in,for--of,forEach
   -- var,let,const
   -- DOM
+  -- events
+  -- ASYNC

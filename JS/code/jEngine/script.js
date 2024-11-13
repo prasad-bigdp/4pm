@@ -1,10 +1,25 @@
-console.log(a); //Hoisting -- u can use the value before its declaration //callstack,execution content
-var a = 5;
-var c = 5;
+console.log(c)
+var c = 35;
+function sum (a, b)
+{
+    let c = a + b;
+    console.log(c)
+}
+sum()
 function display ()
 {
-    console.log(z)
-    var z = 5;
-    console.log(z)
+    console.log("hello world")
 }
 display()
+
+
+
+
+// console.log(b)
+// var b = 22
+// console.log(b)
+// function fun() {
+// 	console.log(c)
+// 	var c = 55
+// }
+// fun()
