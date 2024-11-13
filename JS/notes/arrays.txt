@@ -40,7 +40,7 @@ return prev+curr;
 
 we also have other functions such as some,every etc..,
 
-objects:
+
 
 
 
