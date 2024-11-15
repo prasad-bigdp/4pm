@@ -1,0 +1,199 @@
+1. what is Hoisting?
+use the variable before its declaration
+2. can I use let variable before declaration?
+No, because let and const store variables in temporal
+ dead zone
+3. console.log(k) //error
+const k=20;
+4. what is callstack?
+   callstack is a stack which maintains execution contents in LIFO way. it contains every function in our program which is ready to execute
+5. can I change string value?
+let str="raj"
+str.toUpperCase();
+console.log(str)
+6. write a simple code to generate ACRONYMS
+eg: COMPUTER SCIENCE -->CS
+let x= "RAJA PRASAD".split(' ')
+x[0].charAt(0)+x[1].charAt(0)
+
+// functions:
+function are used to perform certain task again and again
+ -- reusability, modularity
+function function_name(){
+//body of the function
+}
+ ---- define a function display which prints hello world in console.
+function wish(){
+console.log("Happy childrens day")}
+wish();
+
+function can parameters
+function children(chocolate){
+console.log("I love "+chocolate);
+}
+children("dairy milk");
+
+some functions returns the value
+function ravi(chocolate){
+return chocolate+2;
+}
+let x=ravi("dairy milk");
+console.log(x)
+
+Task 1: Write a JavaScript function that takes two numbers as parameters, adds them, and returns the sum. Call the function and display the result.
+
+functions can be treated as variable
+function sum() //function declaration -- hoisting
+{
+console.log("sum is 50")
+}
+console.log(sum)
+
+// it prints function completely
+functions  can be written as function expressions
+let sum = function(){ // function expression -- no hoisting
+console.log("sum is 50")
+}
+Nested functions:
+function  x(){
+       function y(){
+             console.log("y called")
+            }
+    y();
+console.log("x called")
+}
+x()
+// y called 
+// x called
+
+closure: Inner function remembers outer function values even after outer function execution ended
+function  x(){
+         let basicSalary=20000;
+       function y(promotion){
+             basicSalary+=promotion
+             console.log("y called")
+            }
+        return y;
+}
+let result=x()
+console.log(result)
+result(50000)
+
+
+function vani(){
+   let msg="Good Bye"
+      function letter(){
+         console.log(msg)
+       }
+  return letter;
+}
+let ravi= vani();
+console.log(ravi)
+ravi()
+
+In real time we use it in techniques like memorization
+
+function test1(x){
+   x("ravi")
+   x("vani")
+}
+function test2(name){
+   console.log(`The name is ${name}`)
+}
+test1(test2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
