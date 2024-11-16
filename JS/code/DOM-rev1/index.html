@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<!-- <h1 class="firstHead">HEllo World</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi aut magnam aperiam magni? Velit temporibus veritatis officia non suscipit incidunt.</p>
+        <h1 class="firstHead">HEllo World</h1>
+
+    <button onclick="fun()">click me</button> -->
+
+		<input type="text" id="inp" />
+		<button onclick="fun()">click me</button>
+		<p id="para"></p>
+
+		<script>
+			const ele = document.getElementById("inp")
+            ele.classList.add('prasad')
+            ele.style.color="red"
+            const newPara= document.createElement('p');
+            newPara.textContent="jhgfjhdfhjhdfhj";
+            document.body.appendChild(newPara)
+			function fun() {
+				console.log(ele.value)
+                //add class name to para
+                //change color for paragraph
+                // create paragraph , write something, add to body
+			}
+		</script>
+
+		<script src="./script.js"></script>
+	</body>
+</html>
