@@ -1,3 +1,7 @@
+Asynchronous Javascript(AJAX):
+   using AJAX, we can load specific parts of website
+   using AJAX, we can hold certain tasks to run later
+
 Javascript is synchronous(line by line) , single threaded(one task at a time) programming language
 But in Js, async is also possible
  --Timers:
@@ -9,18 +13,14 @@ But in Js, async is also possible
   Event loop informs task queue that whether callstack is empty or not
  --fetch
  API(Application programming Interface):
-  Through URL , we can send json data -- REST API
-  we can access the data by using
-  i. xhr(xmlHttpRequest)
-  ii. fetch:
-  fetch is a webAPI provided by browser, used to perform API reuests such as 
-  GET,POST,PUT,DELETE,PATCH
-  GET: fetch('url')
-  iii.axios
+  -- callback hell:
+  function passed as a parameter to another function is callback function
+  function A(function B(function C(){
+    
+  }){
 
+  }){
 
-
-
-
+  }
 
 

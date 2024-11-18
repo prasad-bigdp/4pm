@@ -14,15 +14,24 @@
 // })
 // btn.addEventListener("click", function (e) {
 //     alert("button clicked")
-//     e.stopPropagation()
 // })
 
-document.getElementById('parent').addEventListener('click', function (e)
+// document.getElementById('parent').addEventListener('click', function (e)
+// {
+//     /* e is event-- click
+//     e.target -- what is targeting click --- button
+//     e.target.textContent -- text inside button*/
+//     alert(e.target.textContent+" got clicked")
+// })
+
+document.getElementById('main').addEventListener('click', function ()
 {
-    /* e is event-- click
-    e.target -- what is targeting click --- button
-    e.target.textContent -- text inside button*/
-    alert(e.target.textContent+" got clicked")
+    alert("item selected")
 })
+
+
+
+
+
 
 
