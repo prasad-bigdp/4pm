@@ -15,12 +15,7 @@ But in Js, async is also possible
  API(Application programming Interface):
   -- callback hell:
   function passed as a parameter to another function is callback function
-  function A(function B(function C(){
-    
-  }){
-
-  }){
-
-  }
+  callback inside callback with multiple nested callbacks is called callback hell
+  
 
 
