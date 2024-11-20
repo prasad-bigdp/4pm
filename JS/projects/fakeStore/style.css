@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: 300px;
+}
+#store{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 20px;
+}
+.product{
+    padding: 20px;
+    box-shadow: 2px 3px black;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+}

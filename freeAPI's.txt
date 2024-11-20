@@ -1,0 +1,8 @@
+1. FAKESTORE: https://fakestoreapi.com/products
+2. sampleAPI's : https://sampleapis.com/api-list
+3. dummyJSON : https://dummyjson.com/docs
+4. jsonplaceholde.typicode.com
+5. movies: tmdb / omdb
+6. pokemon: https://pokeapi.co/api/v2/pokemon/pikachu
+7. weather: https://api.openweathermap.org/data/2.5/weather?q=hyderabad&units=metric&appid=c71d877fa4098a434d8e1032df84812f
+8. public api:https://publicapis.dev/

@@ -15,7 +15,59 @@ But in Js, async is also possible
  API(Application programming Interface):
   -- callback hell:
   function passed as a parameter to another function is callback function
-  callback inside callback with multiple nested callbacks is called callback hell
+  callback inside callback with multiple nested callbacks is called callback hell. Dealing with callbacks in complex situations will make worse. so we are using Promises
+Promise: Promise is an object used to handle asynchronous operations. it stores the state of eventual completion of asynchronous operation. so that we can write logics according to promise object state
+we can use error handling like
+  promise 
+           .then(function(res){ //statements })
+           .catch(function(res){//statements })
+           .finally(function(res){//statements })
+"then" will work only when promise is resolved and it receives response of resolve
+"catch" will work only when promise is rejected and it receives the error of reject
+" finally " will work in both the cases
+
+Promise Chaining:
+        One Promise can return values to another promise which is linked such that linking of promises is known as "promise chaining"
+myPromise
+	.then(function (val) //10
+    {
+		console.log(val);
+		return val * 2; //20
+	})
+	.then(function (val)//20
+	{
+		console.log(val);
+		return val * 2;//40
+	})
+	.then(function (val)//40
+	{
+		console.log(val)
+	})
+
+In Realtime, frontend links to backend using API's:
+API: Application Programming Interface
+We can achieve this by multiple ways
+   i. xhr(xmlHttpRequest): Browser have default object xmlHttpRequest, using it we can access any http requests
+   ii. fetch(). fetch is a web API which is used to perform 
+    GET,PUT,POST,DELETE,PATCH requests to http links
+     and return promises
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 
 

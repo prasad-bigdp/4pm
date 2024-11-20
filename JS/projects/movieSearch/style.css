@@ -1,0 +1,24 @@
+#input{
+    display: flex;
+    justify-content: center;
+}
+input{
+    height: 50px;
+    border-radius: 20px;
+    width: 300px;
+}
+button{
+    background-color: black;
+    color: white;
+    width: 200px;
+}
+#results{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.movie{
+    padding: 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
