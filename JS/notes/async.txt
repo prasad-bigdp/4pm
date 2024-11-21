@@ -97,7 +97,8 @@ fetch('https://jsonplaceholder.typicode.com/posts', {
     });
 
 
-
+3. Async-Await:
+Async Await is used to make promises code more synchronous and modern. it is easy to read.
 
 
 
