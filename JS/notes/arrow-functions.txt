@@ -1,0 +1,17 @@
+A function can be expressed multiple ways in JS.
+normal function:
+function display()
+{
+    console.log("hello world")
+}
+display();
+function expression:
+let display= function(){
+     console.log("hello world")
+}
+function expressions can be written in more simpler way. 
+that modern approach to write function expression is arrow 
+functions
+let display= ()=>console.log("hello world")
+In arrow functions, if only one statement is there, we don't need to write {} or we don't need to use return keyword
+
