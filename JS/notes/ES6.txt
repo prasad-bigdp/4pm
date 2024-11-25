@@ -1,0 +1,104 @@
+ Ecmascript is an organization which brings updates to different scripting languages in versions
+ES14 is the latest version of JS in june,2023
+There is a revolutionary version (ES6) released in 2015. it brings OOP concepts to JS and it make modular programming more flexible
+
+Features available from ES6 are:
+1. let and const
+   var is used because we can redeclare,reassign,hoisting.var is function scoped
+   let and const cannot redeclare, let can reassign, but const cannot. hoisting is not possible because let and const are store in temporal dead zone. let and const are block scoped variable
+   function dispaly(){
+    if(true){
+        let y=2;
+    }
+    console.log(y)
+   }
+
+2. Template Literals:
+  Instead of using strings with concat , we can use
+  template Literals
+  let a=5;
+  console.log("The cost is ₹a")
+  console.log(`The cost is ₹${a}`)
+
+3. Arrow Functions:
+//normal function
+function display(a,b)
+{
+    console.log("hi)
+}
+dispaly(5,3)
+//function expression
+let display = function (){
+    console.log("hi)
+}
+
+//arrow function
+let display = ()=>{
+        console.log("hi)
+}
+
+4. Rest and Spread Parameters:
+   Rest operator is used to accept more values in an array in function prototype
+   we represent rest operator with three dots. rest operator always will in parameters and always will be last
+   function display2 (...b)
+{
+
+    let arr=[b]
+    console.log(arr)//[1,2,3,4]  [1,[2,3,4]] [[1,2,3,4]]
+}
+display2(1,2,3,4)
+Spread : Spread operator is used to remove the array/ Spread the elements. it is also represeted by three dots
+function display3 (a,b,...c)
+{
+    console.log(c) 
+    let arr = [1, 2, c];
+    console.log(arr) //[1,2,[7,8]];
+    let arr2 = [1, 2, ...c];
+    console.log(arr2) //[1,2,7,8]
+}
+display3(5,6,7,8)
+5. destructuring(object and array):
+We can destructure any array or object such that we can use
+thrie values or properties individually
+
+6. classes and Objects(OOP):
+Object oriented programming: 
+  --object: object represents a real world entity with 
+  its own properties and method
+  Eg: fan -- color, no-of-wings, run()
+  let fan={
+    color:"red",
+    no-of-wings:3,
+    run:function(){
+        console.log("I'm running)
+    }
+  }
+  let fan2={
+    no-of-wings:3,
+    run:function(){
+        console.log("I'm running)
+    }
+  }
+  To maintain standard format, we can use classes
+  Class: class is the blueprint of object
+  class A{
+    color,no-of-wings
+    run(){
+        
+    }
+  }
+
+
+
+
+
+7. modules
+
+
+
+
+
+
+
+
+

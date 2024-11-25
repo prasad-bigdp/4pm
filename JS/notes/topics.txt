@@ -16,3 +16,14 @@ Javascript
   -- DOM
   -- events
   -- ASYNC
+    -- Timers
+    -- callback hell
+    -- promises
+    -- fetch
+    -- async await
+  -- ES6
+  -- BOM
+  -- libraries
+  -- main project
+  -- interview
+  -- doubt clearing
