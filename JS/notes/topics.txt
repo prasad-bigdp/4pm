@@ -22,6 +22,12 @@ Javascript
     -- fetch
     -- async await
   -- ES6
+      -- Arrow functions
+      -- var,let,const
+      -- template literals
+      -- rest,spread
+      -- destructuring arrays,objects
+      -- OOPs
   -- BOM
   -- libraries
   -- main project

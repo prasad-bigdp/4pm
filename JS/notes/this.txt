@@ -1,0 +1,2 @@
+This Operator: 
+ this Operator is used to assign "current calling object"

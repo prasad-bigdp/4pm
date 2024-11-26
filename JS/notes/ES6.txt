@@ -93,6 +93,30 @@ Object oriented programming:
 
 
 7. modules
+To connect multiple JS/TS files,  we need a module system. The system which arranges/combines multiple files is known as module system
+  -- we will discuss module system ES6/ES2015
+  -- using ES6, we can import/export data/methods from difile easily 
+  -- Before Es6, we have several systems like CommonJS,requireJS
+We can import using 'import' keyword and 'export' using export keyword
+
+export can be done in two ways
+export {val1,val2.....} -- we can export multiple values by constructing them as a object
+export default val; -- we can export a value using default keyword such that it can be accepted uniquely to imports. It is allowed to export default one per page
+
+import can be done in three ways
+import {val,val2....} from 'path' -- we can import multiple values by destructuring them as a object
+import * as obj from 'path' -- we can import everything except default in the name obj(import alias)
+import anyname from 'path' -- we can import default exports directly using these
+
+
+
+
+
+
+
+
+
+
 
 
 
