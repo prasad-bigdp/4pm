@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header>
+        <div class="logo">
+            BIG <span>MART</span>
+        </div>
+        <nav>
+            <ul class="menu">
+             <li><a href="">Home</a></li>
+             <li><a href="">About</a></li>
+             <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        <button>Login</button>
+     </header>
+     <main>
+        <h1>My Products</h1>
+        <div id="filters">
+           <div>
+            <span>Limit:</span>
+             <select name="limit" id="limit">
+                <option value="">Select</option>
+                <option value="5">5</option>
+                <option value="30">30</option>
+                <option value="40">40</option>
+                <option value="50">50</option>
+                <option value="60">60</option>
+            </select>
+           </div>
+            <div>
+                <span>sort By:</span>
+            <select name="sort" id="sort">
+                 <option value="">Select</option>
+                <option value="asc">A-Z</option>
+                <option value="desc">Z-A</option>
+            </select>
+            </div>
+            <div>
+                 <span>Category:</span>
+            <select name="category" id="category">
+                <option value="">Select</option>
+                <option value="beauty">beauty</option>
+                <option value="fragrances">fragrances</option>
+                <option value="furniture">furniture</option>
+                <option value="groceries">groceries</option>
+            </select>
+            </div>
+                <div>
+                    <input type="text" name="search" id="search" placeholder="search item">
+                <button id="searchBtn">search</button>
+                </div>
+            
+        </div>
+        <div id="products"></div>
+     </main>
+     <footer>
+        This iste belongs to xyz &copy; 2024
+     </footer>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
