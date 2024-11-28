@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BIG MART</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,12 +14,15 @@
         </div>
         <nav>
             <ul class="menu">
-             <li><a href="">Home</a></li>
+             <li><a href="./index.html">Home</a></li>
              <li><a href="">About</a></li>
              <li><a href="">Contact</a></li>
             </ul>
         </nav>
+       <div>
+         <a href="./cart.html"><i class="fa-solid fa-cart-shopping icon-cart" style="color: #ffffff;"></i><span class="badge" id="count">0</span>  </a>
         <button>Login</button>
+       </div>
      </header>
      <main>
         <h1>My Products</h1>
@@ -61,9 +65,9 @@
         <div id="products"></div>
      </main>
      <footer>
-        This iste belongs to xyz &copy; 2024
+        This site belongs to xyz &copy; 2024
      </footer>
     
-    <script src="./script.js"></script>
+    <script src="./script.js" type="module"></script>
 </body>
 </html>

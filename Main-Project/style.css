@@ -70,6 +70,45 @@ footer{
     gap: 10px;
     padding: 30px;
 }
+#main{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.rightDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.cart-icon{
+    height: 50px;
+    width: 50px;
+}
+.cartItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    border: 1px solid black;
+}
+.cartItem img{
+    height: 50px;
+    width: 50px;
+}
+.badge{
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    position: relative;
+    left: -10px;
+    top: -10px;
+    width: 20px;
+}
+.rightDiv button{
+    width: max-content;
+}
 #filters{
     margin: 20px auto;
     max-width: 1280px;

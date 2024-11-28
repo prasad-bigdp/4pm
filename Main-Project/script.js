@@ -1,3 +1,4 @@
+import { addcartfn } from "./common.js";
 const mainDiv = document.getElementById('products');
 const fetchData = (url) =>
 {
@@ -21,9 +22,13 @@ const displayData = (data) =>
         productTitle.textContent = val.title;
         const productPrice = document.createElement('p');
         productPrice.textContent = `Price: ₹${val.price}`;
+        const productLink = document.createElement('a');
+        productLink.appendChild(productTitle)
+        productLink.href=`./product.html?pid=${val.id}`
         const addCartButton = document.createElement('button');
-        addCartButton.textContent="Add to Cart 🛒"
-        productDiv.append(productImage, productTitle, productPrice, addCartButton);
+        addCartButton.textContent = "Add to Cart 🛒"
+        addCartButton.addEventListener('click',()=>addcartfn(val))
+        productDiv.append(productImage, productLink, productPrice, addCartButton);
         mainDiv.appendChild(productDiv)
    })  
 }
