@@ -7,18 +7,18 @@ Javascript
   -- data types
   -- primitve(number,string,boolean,undefined,null)
   -- js engine
-  -- arrays
-  -- functions
+  -- arrays(array fns - foreach,map,filter,reduce)
+  -- functions(callback fn, function expression,arrow fn,closure)
   -- objects
   -- if,switch
   --for,for..in,for--of,forEach
   -- var,let,const
   -- DOM
-  -- events
+  -- events(event propagation - bubbline,capturing,event delegation)
   -- ASYNC
-    -- Timers
-    -- callback hell
-    -- promises
+    -- Timers (setTimeout,setInterval)
+    -- callback hell 
+    -- promises 
     -- fetch
     -- async await
   -- ES6
@@ -28,7 +28,7 @@ Javascript
       -- rest,spread
       -- destructuring arrays,objects
       -- OOPs
-  -- BOM
+  -- BOM(localstorage,sessionstorage)
   -- libraries
   -- main project
   -- interview

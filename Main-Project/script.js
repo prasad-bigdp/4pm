@@ -7,6 +7,13 @@ const fetchData = (url) =>
         .then((data)=>displayData(data.products))
         .catch((err)=>console.log(err))   
 }
+
+
+
+
+
+
+
 fetchData("https://dummyjson.com/products")
 const displayData = (data) =>
 {

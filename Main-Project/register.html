@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./register.css">
+</head>
+<body>
+     <div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup">
+				<form id="form">
+					<label for="chk" aria-hidden="true">Sign up</label>
+					<input type="text" id="nameInp" name="txt" placeholder="User name" required="">
+                    <p id="error"></p>
+					<input type="email" name="email" placeholder="Email" required="">
+          <input type="number" name="broj" placeholder="BrojTelefona" required="">
+					<input type="password" name="pswd" placeholder="Password" required="">
+					<button id="signup">Sign up</button>
+				</form>
+			</div>
+
+			<div class="login">
+				<form>
+					<label for="chk" aria-hidden="true">Login</label>
+					<input type="email" name="email" placeholder="Email" required="">
+					<input type="password" name="pswd" placeholder="Password" required="">
+					<button>Login</button>
+				</form>
+			</div>
+	</div>
+    <script>
+        const inputName = document.getElementById("nameInp")
+document.getElementById("form").addEventListener('submit', (e) =>
+{
+    e.preventDefault()
+    if (inputName.value.length <= 6) {
+			document.getElementById("error").textContent =
+				"Minimum 6 characters required"
+		}
+})
+    </script>
+</body>
+</html>
